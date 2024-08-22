@@ -57,6 +57,11 @@ func main() {
 			field[coord-1] = "0"
 		}
 		fmt.Printf("%s\n%s\n%s\n", field[0:3], field[3:6], field[6:])
+		a, b := view(field)
+		if b == true {
+			fmt.Println(a)
+			break
+		}
 
 	}
 
