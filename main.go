@@ -62,6 +62,9 @@ func main() {
 			fmt.Println(a)
 			break
 		}
+		if i == 9 && b == false {
+			fmt.Println("Ничья!")
+		}
 
 	}
 
